@@ -17,7 +17,12 @@ h1 {
     text-align: center;
    
 }
-
+.briefing{
+    font-weight: lighter;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+}
 a {
     text-decoration: none;
 }
@@ -53,14 +58,21 @@ img {
     display: grid;
     grid-template-areas: 
     'conteudo-da-esquerda conteudo-da-direita';
-    width: 100%;
+    grid-template-columns: 900px;
+    width: 95%;
     margin: auto;
     grid-gap: 50px;
     text-align: left;
 
     
 }
+.conteudo-container > div:nth-child(1){
+    background: rgb(254, 254, 255);
+    
+    
+    
 
+}
 .artigo-em-destaque, .artigo {
     margin-top: 2%;
     margin-bottom: 2%;
